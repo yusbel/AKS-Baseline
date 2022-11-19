@@ -42,7 +42,7 @@ param clusterAuthorizedIPRanges array = []
   'japaneast'
   'southeastasia'
 ])
-param location string = 'eastus2'
+param location string = 'canadacentral'
 param kubernetesVersion string = '1.25.2'
 
 @description('Domain name to use for App Gateway and AKS ingress.')

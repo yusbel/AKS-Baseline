@@ -121,7 +121,7 @@ spec:
           # az acr import --source ghcr.io/kubereboot/kured:1.11.0 -n <your-acr-instance-name>
           # and then set this to
           # image: <your-acr-instance-name>.azurecr.io/kubereboot/kured:1.10.1
-          image: s:acraksdaslay2dp5l6c.azurecr.io:acraksdaslay2dp5l6c.azurecr.io
+          image: s:docker.io:acraksdaslay2dp5l6c.azurecr.io
           imagePullPolicy: IfNotPresent
           securityContext:
             privileged: true # Give permission to nsenter /proc/1/ns/mnt
